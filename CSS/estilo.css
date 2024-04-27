@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: #f5da81;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #800000;
+}
+
+button{
+    background: #0ff;
+    width: 100px;
+    height: 40px;
+}
+
+audio{
+    color: #ff7700;
+    border: 3px;
+    border-style: solid;
+}

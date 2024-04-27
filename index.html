@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <h1>Reproducción de Audio</h1>
+    <script>
+        var meses = new Array("Enero","Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+        var f = new Date();
+        document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+    </script><br>
+
+    <audio src="Audios/notube.mobi - gato riéndose mp3.mp4" preload="auto" controls></audio><br>
+    <audio id="player" src="Audios/notube.mobi - gato riéndose mp3.mp4" autoplay loop></audio><br>
+    <button onclick="document.getElementById('player');">Parar Audio</button><br><br>
+
+    <audio src="Audios/bells.mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="Audios/bells.mp3" autoplay loop></audio><br>
+    <button onclick="document.getElementById('player');">Parar Audio</button><br><br>
+
+    <audio src="Audios/polish cow full song.mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="Audios/polish cow full song.mp3" autoplay loop></audio><br>
+    <button onclick="document.getElementById('player');">Parar Audio</button><br><br>
+
+    <audio src="Audios/Y2meta.app - la canción de pedro PEDRO - Raffaella Carrà, Jaxomy, Agatino Romero (Remix TikTok _ Sub. Español) (128 kbps).mp3" preload="auto" controls></audio><br>
+    <audio id="player" src="Audios/Y2meta.app - la canción de pedro PEDRO - Raffaella Carrà, Jaxomy, Agatino Romero (Remix TikTok _ Sub. Español) (128 kbps).mp3" autoplay loop></audio><br>
+    <button onclick="document.getElementById('player');">Parar Audio</button><br><br>
+</body>
+</html>
